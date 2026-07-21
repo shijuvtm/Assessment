@@ -67,13 +67,13 @@ bakery-store/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/shijuvtm/Assessment.git
 ```
 
 Navigate to the project folder:
 
 ```bash
-cd bakery-store
+cd Assessment
 ```
 
 Install dependencies:
