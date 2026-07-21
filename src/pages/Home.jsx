@@ -1,0 +1,38 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import SearchBar from "../components/SearchBar";
+import CategoryFilter from "../components/CategoryFilter";
+import ProductGrid from "../components/ProductGrid";
+import WhyChooseUs from "../components/WhyChooseUs";
+import Footer from "../components/Footer";
+
+const Home = () => {
+  return (
+    <div className="bg-amber-50 min-h-screen">
+
+      {/* Navigation */}
+      <Navbar />
+
+      {/* Hero Section */}
+      <Hero />
+
+      {/* Search */}
+      <SearchBar />
+
+      {/* Category Filter */}
+      <CategoryFilter />
+
+      {/* Featured Products */}
+      <ProductGrid />
+
+      {/* Why Choose Us */}
+      <WhyChooseUs />
+
+      {/* Footer */}
+      <Footer />
+
+    </div>
+  );
+};
+
+export default Home;
