@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import SearchBar from "../components/SearchBar";
-import CategoryFilter from "../components/CategoryFilter";
-import ProductGrid from "../components/ProductGrid";
-import WhyChooseUs from "../components/WhyChooseUs";
-import Footer from "../components/Footer";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import SearchBar from "./components/SearchBar";
+import CategoryFilter from "./components/CategoryFilter";
+import ProductGrid from "./components/ProductGrid";
+import WhyChooseUs from "./components/WhyChooseUs";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
