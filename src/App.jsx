@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="bg-amber-50 min-h-screen">
+    <div>
 
       {/* Navigation */}
       <Navbar />
